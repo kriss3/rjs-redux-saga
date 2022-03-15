@@ -22,20 +22,3 @@
 .content {
   background-color: #282c34;
 }
-
-.ant-table-thead > tr >th{
-  color: white;
-  background: #3071b9;
-}
-
-.ant-table {
-  background: #282c34;
-}
-
-.rtTable > table {
-  margin: 50px;
-  border-spacing: 10px;
-  border: 1px solid red;
-  background-color: gray;
-  width: 500px;
-}
