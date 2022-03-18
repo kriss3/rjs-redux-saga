@@ -27,12 +27,14 @@ export const decrement = () => {
   }
 }; 
 
+//REDUCER
+
 //display in the console
-store.subscribe(() => console.log(store.getState()));
+//store.subscribe(() => console.log(store.getState()));
 
 //DISPATCH -> execute action to the reducer
-store.dispatch(increment());
-store.dispatch(decrement());
+//store.dispatch(increment());
+//store.dispatch(decrement());
 
 ReactDOM.render(
   <React.StrictMode>
