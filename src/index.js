@@ -15,17 +15,6 @@ const store = createStore(allReducers,
 //STORE -> Globalized State 
 
 //ACTION -> INCREMENT description what we want to do
-export const increment = () => {
-  return {
-    type: 'INCREMENT'
-  }
-};
-
-export const decrement = () => {
-  return {
-    type: 'DECREMENT'
-  }
-}; 
 
 //REDUCER
 
